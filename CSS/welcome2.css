@@ -1,0 +1,23 @@
+.Box-Welcome {
+    background-color: rgba(54, 96, 194, 0.226);
+    color: white;
+    border: 2px solid rgb(43, 50, 100);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .icon-Social {
+      width: 30px; /* ขนาดของรูปภาพ */
+      transition: transform 0.3s ease; /* เพิ่ม transition สำหรับการขยายรูปภาพ */
+  }
+
+  .icon-Social:hover {
+      transform: scale(1.2);
+  }
+
+  /* สไตล์สำหรับลิงก์ (เอาขีดเส้นใต้และสีฟ้าออก) */
+  a {
+      text-decoration: none; /* เอาขีดเส้นใต้ของลิงก์ออก */
+      color: inherit; /* เปลี่ยนสีของลิงก์ให้เป็นสีปกติที่มาจาก parent */
+  }

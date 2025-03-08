@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form ครั้งที่ 2</title>
+</head>
+<body>
+    <center> <h1> ทดสอบสร้าง html form ครั้งที่ 2 </h1></center>
+
+    <form action="TestHtmlInputForm2.hTml" method="get">
+        ระบุชื่อ-สกุล : <input type="text" name="fullname" id="fullname"> <br>
+        <br>
+        ระบุเพศ : <input type="radio" name="gender" id="" value="male" checked> boy
+        <input type="radio" name="gender" id="" value="female"> woman
+        <input type="radio" name="gender" id="" value="other"> other
+        <br>
+        ช่วงอายุ : <input type="radio" name="age" value="ต่ำกว่า 18" checked> ต่ำกว่า 18
+        <input type="radio" name="age" value="19 - 35">  19 - 35
+        <input type="radio" name="age" value="36 - 40">  36 - 40
+        <input type="radio" name="age" value="41 - 60"> 41 - 60
+        <input type="radio" name="age" value="41 - 60">  41 - 60
+        <input type="radio" name="age" value="มากกว่า 60">  มากกว่า 60
+        <br>
+
+        งานอดิเรก : <input type="checkbox" name="hobby" value="นอน"> นอน
+        <input type="checkbox" name="hobby" value="ดูทีวี"> ดูทีวี
+        <input type="checkbox" name="hobby" value="เล่นเกม"> เล่นเกม
+        <input type="checkbox" name="hobby" value="shopping"> shopping <br>
+        <input type="checkbox" name="hobby" value="ตกปลา"> ตกปลา
+        <input type="checkbox" name="hobby" value="กิน"> กิน
+        <input type="checkbox" name="hobby" value="อ่านหนังสือ"> อ่านหนังสือ <br>
+        อื่นๆ (ระบุด้วยเด้อ) <input type="text" name="hobby2">  <br>
+
+
+        <br>
+        แนบไฟล์รูปภาพ : <input type="file" name="pic" accept="image/*">
+
+        <br>
+        สักกัดคณะ : <select name="faculty" id="faculty"> 
+            <option value="เทคโนโลยีสารสนเทศ" selected> เทคโนโลยีสารสนเทศ </option>
+            <option value="วิทยาศาสตร์"> วิทยาศาสตร์ </option>
+            <option value="พยาบาล"> พยาบาล </option>
+            <option value="นิติ"> นิติศาสตร์ </option>
+            </select>
+        <br>
+
+
+
+
+        <br>
+        <input type="submit" value="Click Send">
+    </form>
+</body>
+</html>

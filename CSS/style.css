@@ -1,0 +1,101 @@
+.container{
+    position: relative;
+   /* border: 1px solid sienna;*/
+    width: 80%;
+    height: 800px;
+    margin:auto;
+}
+.header{
+    position: relative;
+    /*border:1px solid saddlebrown;*/
+    width:100%;
+    height:100px;
+}
+
+.content{
+    position: relative;
+    /*border: 1px solid blueviolet;*/
+    width: 100%;
+    height: 400px;
+    
+}
+.footer{
+    position: relative;
+   /* border: 1px solid violet;*/
+    width: 100%;
+    height: 50px;
+    /*background-color: grey;*/
+    padding:10px;
+    bottom:0;
+    text-align: center;
+
+}
+
+.logo{
+    position: absolute;
+    border:1px solid white;
+    background-color: grey;
+    width:10%;
+    height:20px;
+    border-radius:20px;
+    padding:Spx;
+    margin-top:10px;
+    left:5px;
+    text-align: center;
+}
+
+iframe{
+    width:102%;
+    height:170%;
+    border:0px;
+}
+
+.imgdata{
+    border-top:1px solid orange;
+    border:1px solid orange;
+    border-radius:15px;
+    width:100px;
+    height:100px;
+    padding:10px;
+    float: left;
+}
+
+.data{
+    text-align: justify;
+    padding:10px;
+    margin:5px;
+}
+
+.menu{
+    position: relative;
+    float:right;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    display:inline;
+    margin-right:5px;
+}
+
+li a{
+    color: rgb(5, 0, 69);
+    padding:10px;
+}
+
+li a:hover{
+    background-color: rgb(160, 66, 143);
+    color: rgb(255, 131, 209);
+    border-radius:0;
+    border-bottom:5px solid rgb(254, 192, 238);
+    border-radius:0 20px;
+
+}

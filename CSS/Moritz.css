@@ -1,0 +1,169 @@
+/* MoritzWebSide */
+
+Co1, html {
+    color: rgb(74, 83, 184);
+}
+
+iframe {
+    width: 1247px;
+    height: 900px;
+    border: 0px;
+}
+
+.frame {
+    background-color: rgba(57, 122, 133, 0.425);
+    color: white;
+    border: 3px solid rgb(68, 80, 125);
+    margin: 50px;
+    padding: 200px;
+}
+
+.roblox-icon { 
+    transition: transform 0.3s ease; /* เพิ่ม transition สำหรับการขยายรูปภาพ */
+}
+
+.roblox-icon:hover {
+    transform: scale(1.2);
+}
+
+body {
+margin: 0;
+padding: 0;
+background-color: rgb(156, 187, 207);
+background-image: url('/imges/RERE\ IT\ Classroom.jpg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+transition: background-color 0.5s ease;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+height: 100%;
+overflow-x: hidden;
+backdrop-filter: blur(5px); /* เพิ่มการเบลอที่พื้นหลัง */
+}
+
+
+/* ทำให้ header หรือส่วนหัวดูสวยงาม */
+center {
+    background-color: rgba(107, 83, 187, 0.365);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center;
+}
+
+h1.Co1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+
+/* เมนู navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(74, 83, 184, 0.34);
+    transition: background-color 0.5s ease;
+    width: 100%; /* ทำให้เมนูเต็มหน้าจอ */
+    display: flex;
+    justify-content: center; /* จัดให้อยู่กลาง */
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: rgb(162, 247, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(135, 27, 128);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00d0ff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(168, 133, 255, 0.2);
+    z-index: 1;
+    transition: display 0.5s ease;
+}
+
+.dropdown-content a {
+    color: rgba(34, 0, 255, 0.457);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* จัดรูปแบบ content */
+.content {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* จัดให้อยู่กลาง */
+    align-items: center; /* จัดให้อยู่กลาง */
+    width: 100%;
+    flex-grow: 1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+        /* Apply fonts globally */
+        body {
+            font-family: 'Kanit', sans-serif; /* Default font for body */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Madimi One', cursive; /* For headings */
+        }
+
+        p, a, li {
+            font-family: 'Merriweather', serif; /* For paragraphs, links, and list items */
+        }
+
+        /* Additional styling (optional) */
+        ul {
+            list-style-type: none;
+        }
+        
+        .dropbtn {
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .dropdown-content a {
+            font-family: 'Merriweather', serif;
+        }
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* Welcome2 */
+
+
+
+/* ----------------------------------------------------------------------------------------------- */

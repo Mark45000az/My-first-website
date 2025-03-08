@@ -1,0 +1,42 @@
+.logo { 
+    transition: transform 0.3s ease; /* เพิ่ม transition สำหรับการขยายรูปภาพ */
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.square-frame {
+    border: 3px solid rgba(39, 35, 223, 0.388);
+    padding: 20px;
+    width: 1230px;
+    height: 100px;
+    background-color: rgba(177, 110, 239, 0.242);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.square-frame2 {
+    border: 3px solid rgba(39, 35, 223, 0.388);
+    padding: 20px;
+    width: 1230px;
+    background-color: rgba(177, 110, 239, 0.242);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+/* Flexbox สำหรับรูปภาพ */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* ช่องว่างระหว่างรูปภาพ */
+}
+
+.square-frame center:hover {
+    color: rgba(59, 24, 114, 0.76); 
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0;
+}

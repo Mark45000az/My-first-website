@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index2</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        a {
+            color: rgb(40, 41, 25);
+            text-decoration: none;
+        }
+        ul {
+            color: blue;
+            list-style-type: none;
+            width: 800px;
+        }
+        .dropdown-content {
+            position: absolute;
+            display: none;
+            top: 150%; /* แก้ไขให้เมนูแสดงด้านล่าง */
+            left: auto;
+            background-color: #f9f9f9; /* สีพื้นหลังของเมนู */
+            min-width: 160px; /* ความกว้างของเมนู */
+            z-index: 1;
+        }
+        .dropdown {
+            position: relative;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body background="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3955b514-aadc-4d7d-8248-71fc5b9c30ce/dg39dc3-55810788-e69f-48db-bf61-a92401dd34d2.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM5NTViNTE0LWFhZGMtNGQ3ZC04MjQ4LTcxZmM1YjljMzBjZVwvZGczOWRjMy01NTgxMDc4OC1lNjlmLTQ4ZGItYmY2MS1hOTI0MDFkZDM0ZDIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sEqfj98mUXPDJNx009a8nG6r4k45Kumg8c9H0cYO2wc">
+
+    <div class="container">
+
+        <div class="header">
+            <span class="logo">
+                Moritz
+            </span>
+
+            <ul class="menu">
+                <li> <a href="welcome2.html" target="mainframe"> Home </a> </li>
+                <li class="dropdown"> Homework  
+                    <ul class="dropdown-content">
+                        <li> <a href="Homework1.html" target="mainframe"> ขั้นตอนการทำมาม่า </a> </li>
+                        <li> <a href="Test66HW.html" target="mainframe"> ประวัติศาสตร์ของปรัสเซีย </a> </li>
+                        <li> <a href="TestHtmlInput3.html" target="mainframe"> แบบสอบถาม </a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <iframe name="mainframe" src="welcome2.html" frameborder="1"></iframe>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <span> Moritz2541@gmail.com </span>
+    </div>
+
+</body>
+</html>

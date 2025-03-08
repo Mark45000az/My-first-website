@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        a{
+            color: rgb(40, 41, 25);
+            text-decoration:none;
+        }
+        ul{
+            color: blue;
+           list-style-type:none;
+           width:200px;
+        }
+        li{
+            padding: 10px;
+            background-color: rgb(238, 238, 238);
+            margin-bottom: 1px;
+            border-radius: 0 30px;
+
+        }
+        li:hover{
+            background-color: rgb(136, 112, 112);
+        }
+        .dropdown-content{
+            position: absolute;
+            display: none;
+        }
+        .dropdown{
+            position: relative;
+        }
+        .dropdown:hover .dropdown-content{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li> <a href="#"> HOME </a> </li>
+        <li> <a href="#"> GAME </a> </li>
+
+        <li class="dropdown"> HOMEWORK <ul class="dropdown-content">
+            <li> <a href="#"> HOMEWORK1 </a> </li>
+            <li> <a href="#"> HOMEWORK2 </a> </li>
+            <li> <a href="#"> HOMEWORK3 </a> </li>
+            <li> <a href="#"> HOMEWORK4 </a> </li>
+            <li> <a href="#"> HOMEWORK5 </a> </li>
+        </ul> </a> </li>
+        
+
+        <li class="dropdown"> สาระน่ารู้  <ul class="dropdown-content">
+            <li> <a href="#"> การปลูกต้นไม้ </a> </li>
+            <li> <a href="#"> การออกกำลังกาย </a> </li>
+            <li> <a href="#"> เรียนไงให้รู้เรื่อง </a> </li>
+            <li> <a href="#"> การตัดต่อด้วย Canva </a> </li>
+            <li> <a href="#"> Minecrift </a> </li>
+        </ul> </a> </li>
+       
+
+        <li> <a href="#"> ABOUT US </a> </li>
+    </ul>
+</body>
+</html>

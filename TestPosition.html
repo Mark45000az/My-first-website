@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.static {
+  
+  display:none;
+  position:relative;
+  right:10px;
+  left:200px;
+  width: 50%;
+  border: 3px solid #215ead;
+  border-radius:20px;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>position: static;</h2>
+
+<p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+
+<div class="static">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim neque tempora, sit praesentium corporis repellendus alias deserunt quas at sequi tenetur voluptatum explicabo, nisi et architecto soluta pariatur. Quo, consectetur eligendi ut officia deleniti laudantium in natus eveniet itaque consequatur! Esse at aperiam possimus repellendus dolores neque reprehenderit porro, maiores natus. Est voluptas sit earum quas, nesciunt repellat. Quisquam id tempora, ullam deleniti esse iusto nihil atque aliquam enim labore nulla voluptatem vel ipsam mollitia iste praesentium! Quas ex ratione culpa ad, beatae magnam dicta expedita illum? Sapiente quisquam corrupti nesciunt deleniti eligendi vitae unde accusantium nulla, minus ad iste.
+</div>
+
+</body>
+</html>
+
+____________________________________________________________________________________________________________________
+
+
+<style>
+    #boxBig{
+        position: relative;
+        top:0;
+        border:5px solid gray;
+        height:100px;
+    }
+
+    #boxSmall{
+        position:absolute;
+        right:0;
+        bottom:0px;
+        background-color: rgb(180, 155, 155);
+        width:50%;
+    }
+
+
+    .box{
+        position: absolute;
+        border:1px dotted orange;
+        background-color: rgb(49, 58, 58);
+        width:50px;
+        height:50px;
+        border: redius 50px;
+    }
+
+    #b1{
+        top:0px;
+        left:0px;
+
+    }
+
+    #b2{
+        top:0px;
+        right:0px;
+    }
+
+    #b3{
+        bottom:0px;
+        right:0px;
+    }
+
+    #b4{
+        bottom:0px;
+        left:0px;
+    }
+</style>
+<boby>
+
+    <h1> ทดสอบ  position </h1>
+    <div id="boxBig">
+
+        <span> 
+            
+            <span class="box" id="b1">
+                B1
+
+        </span>
+
+        <span> 
+            
+            <span class="box" id="b2">
+                B2
+
+        </span>
+
+        <span> 
+            
+            <span class="box" id="b3">
+                B3
+
+        </span>
+
+        <span> 
+            
+            <span class="box" id="b4">
+                B4
+
+        </span>
+
+        </div>
+    </div>
+
+
+</boby>
+
+____________________________________________________________________________________________________________________

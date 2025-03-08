@@ -1,0 +1,17 @@
+body{
+    color: white;
+    background-color: grey;
+    background-image: url("/imges/prussia.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    background-color: #372e29;
+    opacity: 0.2;
+}
+#mydiv1{
+   color: #372e29;
+    
+}
+

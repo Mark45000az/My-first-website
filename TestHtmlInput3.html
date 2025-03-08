@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 61%;
+            margin: auto;
+            color: #000000;
+        }
+    </style>
+</head>
+<body style="background-color: rgba(240, 248, 255, 0.493);">
+    <center><h1>แบบสอบถาม</h1></center>
+    <form action="TestHtmlInput3.html">
+        <fieldset>
+            <legend> ส่วนที่ 1 : ข้อมูลส่วนตัว </legend>
+            <br>ระบุชื่อ : <input type="text" name="fname" id="fname" maxlength="10"> 
+            ระบุนามสกุล : </label> <input type="text" name="lname" id="lname" maxlength="10"> <br>
+            <br> เพศ : <input type="radio" name="gender" id="" value="male"> Man
+        <input type="radio" name="gender" id="" value="female"> woman
+        <input type="radio" name="gender" id="" value="other" checked> other <br>
+        <br>
+            อายุ : <input type="radio" name="age" value="ต่ำกว่า 18" checked> ต่ำกว่า 18
+        <input type="radio" name="age" value="19 - 35">  19 - 35
+        <input type="radio" name="age" value="36 - 40">  36 - 40
+        <input type="radio" name="age" value="41 - 60"> 41 - 60
+        <input type="radio" name="age" value="41 - 60">  41 - 60 <br>
+           <br> ระบุน้ำหนัก : </label> <input type="number" name="weight" id="weight" > 
+            ระบุน้ำส่วนสูง : </label> <input type="number" name="height" id="height" > <br>
+            <br>สัญชาติ : <select name="nationality" id="nationality"> 
+                <option value="Thai" selected> ไทย </option>
+                <option value="America"> อเมริกา </option>
+                <option value="Poland"> โปแลนด์ </option>
+                <option value="Laos"> Laos </option>
+                <option value="other"> อื่นๆ </option>
+                </select>
+            
+                ศาสนา : <select name="nationality" id="nationality"> 
+                <option value="Buddhism" selected> ศาสนาพุทธ </option>
+                <option value="Christianity"> ศาสนาคริสต์ </option>
+                <option value="Hinduism"> ศาสนาฮินดู </option>
+                <option value="Jainism"> ศาสนาเชน </option>
+                <option value="Sikhism"> ศาสนาพราหมณ์ </option>
+                <option value="Abrahamic Religions"> ศาสนาอับราฮัม </option>
+                <option value="other"> อื่นๆ </option>
+                </select>
+                <br>
+
+               <br> ระบุวันเกิน : <input type="date" name="" id="">
+               เกิดในจังหวัด : <select name="Born in the province" id="Born in the province"> 
+                    <option value="Roi Et" selected> ร้อยเอ็ด </option>
+                    <option value="Bangkok"> กรุงเทพมหานคร  </option>
+                    <option value="Kanchanaburi"> กระบี่  </option>
+                    <option value="Kanchanaburi"> กาญจนบุรี  </option>
+                    <option value="Kalasin"> กาฬสินธุ์   </option>
+                    <option value="Kalasin"> การบึง  </option>
+                    <option value="Khon Kaen"> ขอนแก่น   </option>
+                    <option value="Chanthaburi"> จันทบุรี   </option>
+                    <option value="Chachoengsao"> ฉะเชิงเทรา   </option>
+                    <option value="Chai Nat"> ชัยนาท   </option>
+                    <option value="Chaiyaphum"> ชัยภูมิ   </option>
+                    <option value="Chumphon"> ชุมพร   </option>
+                    <option value="Chiang Rai"> เชียงราย   </option>
+                    <option value="Chiang Mai"> เชียงใหม่  </option>
+                    <option value="Trang"> ตรัง  </option>
+                    <option value="Trat"> ตราด   </option>
+                    <option value="Tak"> ตาก   </option>
+                    <option value="Nakhon Nayok"> นครนายก   </option>
+                    <option value="Nakhon Pathom"> นครปฐม    </option>
+                    <option value="Nakhon Phanom"> นครพนม    </option>
+                    <option value="Nakhon Ratchasima"> นครราชสีมา    </option>
+                    <option value="Nakhon Si Thammarat"> นครศรีธรรมราช    </option>
+                    <option value="Narathiwat"> นราธิวาส    </option>
+                    <option value="Nan"> น่าน    </option>
+                    <option value="Nonthaburi"> นนทบุรี    </option>
+                    <option value="Bueng Kan"> บึงกาฬ    </option>
+                    <option value="Buriram"> บุรีรัมย์    </option>
+                    <option value="Prachuap Khiri Khan"> ประจวบคีรีขันธ์    </option>
+                    <option value="Pathum Thani"> ปทุมธานี    </option>
+                    <option value="Prachinburi"> ปราจีนบุรี    </option>
+                    <option value="Pattani"> ปัตตานี    </option>
+                    <option value="Phayao"> พะเยา    </option>
+                    <option value="Phra Nakhon Si Ayutthaya"> พระนครศรีอยุธยา   </option>
+                    <option value="Phang Nga"> พังงา    </option>
+                    <option value="Phichit"> พิจิตร    </option>
+                    <option value="Phitsanulok"> พิษณุโลก    </option>
+                    <option value="Phetchaburi"> เพชรบุรี    </option>
+                    <option value="Phetchabun"> เพชรบูรณ์    </option>
+                    <option value="Phrae"> แพร่     </option>
+                    <option value="Phuket "> ภูเก็ต     </option>
+                    <option value="Maha Sarakham"> มหาสารคาม     </option>
+                    <option value="Mukdahan"> มุกดาหาร     </option>
+                    <option value="Yala"> ยะลา     </option>
+                    <option value="Yasothon"> ยโสธร     </option>
+                    <option value="Ranong"> ระนอง     </option>
+                    <option value="Rayong"> ระยอง     </option>
+                    <option value="Ratchaburi"> ราชบุรี     </option>
+                    <option value="Lopburi"> ลพบุรี     </option>
+                    <option value="Lampang"> ลำปาง     </option>
+                    <option value="Lamphun"> ลำพูน     </option>
+                    <option value="Loei"> เลย     </option>
+                    <option value="Sisaket"> ศรีสะเกษ     </option>
+                    <option value="Sakon Nakhon"> สกลนคร     </option>
+                    <option value="Songkhla"> สงขลา     </option>
+                    <option value="Samut Prakan"> สมุทรปราการ     </option>
+                    <option value="Samut Songkhram"> สมุทรสงคราม     </option>
+                    <option value="Samut Sakhon"> สมุทรสาคร      </option>
+                    <option value="Sa Kaeo"> สระแก้ว     </option>
+                    <option value="Saraburi"> สระบุรี      </option>
+                    <option value="Sing Buri"> สิงห์บุรี      </option>
+                    <option value="Sukhothai"> สุโขทัย      </option>
+                    <option value="Suphanburi"> สุพรรณบุรี     </option>
+                    <option value="Surin"> สุรินทร์      </option>
+                    <option value="Satun"> สตูล      </option>
+                    <option value="Nong Khai"> หนองคาย      </option>
+                    <option value="Nong Bua Lamphu"> หนองบัวลำภู      </option>
+                    <option value="Ang Thong"> อ่างทอง      </option>
+                    <option value="Amnat Charoen"> อำนาจเจริญ      </option>
+                    <option value="Udon Thani"> อุดรธานี      </option>
+                    <option value="Uthai Thani"> อุทัยธานี      </option>
+                    <option value="Ubon Ratchathani"> อุบลราชธานี      </option>
+                    <option value="Amnat Charoen"> อำนาจเจริญ      </option>
+                    <option value="Kamphaeng Phet"> กำแพงเพชร      </option>
+                    <option value="Krabi"> กระบี่      </option>
+                    <option value="Chaiyaphum"> ชัยภูมิ      </option>
+                    <option value="Chiang Rai"> เชียงราย     </option>
+                    <option value="Chonburi"> ชลบุรี      </option>
+                    </select>
+
+                    เกิดที่ : <select name="Born in" id="Born in"> 
+                        <option value="hospital" selected> โรงพยาบาล </option>
+                        <option value="Home"> บ้าน </option>
+                        <option value="airport"> สนามบิน </option>
+                        <option value="Apartment" > อพาร์ทเม้นท์ </option>
+                        <option value="other"> อื่นๆ </option>
+                        </select> <br>
+
+                        <br>ระบุที่อยู่ : <br>
+                        <textarea name="address" cols="100" rows="5"></textarea>
+                        <br>
+            
+    
+
+        </fieldset>
+
+        <fieldset>
+            <legend> ส่วนที่ 2 : ความชอบ </legend>
+
+            <br>อาหารที่ชอบคุณคือ : <input type="text" name="fname" id="fname" maxlength="10"> สัตว์เลี้ยงที่ชอบ : <input type="text" name="fname" id="fname" maxlength="10"> <br>
+
+            <br>เพศที่ชอบ : <input type="radio" name="Preferred gender" id="" value="male"> Man
+        <input type="radio" name="Preferred gender" id="" value="female"> woman
+        <input type="radio" name="Preferred gender" id="" value="other" checked> other <br>
+
+        <br>บุคลิกที่ชอบ : <input type="checkbox" name="liking" id="" value="kind"> ใจดี
+        <input type="checkbox" name="liking" id="" value="gentle"> อ่อนโยน
+        <input type="checkbox" name="liking" id="" value="honest"> ซื่อสัตย์
+        <input type="checkbox" name="liking" id="" value="sincere"> จริงใจ
+        <input type="checkbox" name="liking" id="" value="Innocent"> ไร้เดียงสา
+        <input type="checkbox" name="liking" id="" value="Talk a lot"> พูดมาก
+        <input type="checkbox" name="liking" id="" value="quiet"> เงียบ
+        <input type="checkbox" name="liking" id="" value="tidy"> เรียบร้อย
+        <input type="checkbox" name="liking" id="" value="ขี้บ่น"> โมโหง่าย
+        <input type="checkbox" name="liking" id="" value="clever"> ฉลาด
+        <input type="checkbox" name="liking" id="" value="scary"> น่ากลัว
+        <input type="checkbox" name="liking" id="" value="mental disorder"> โรคจิต
+        <input type="checkbox" name="liking" id="" value="crazy"> บ้า
+        <input type="checkbox" name="liking" id="" value="Be responsible"> มีความรับผิดชอบ
+        <input type="checkbox" name="liking" id="" value="Playful"> ขี้เล่น
+        <input type="checkbox" name="liking" id="" value="tease"> แกล้ง
+        <input type="checkbox" name="liking" id="" value="mysterious"> ลึกลับ
+        <input type="checkbox" name="liking" id="" value="Addicted to games"> ติดเกม
+        <input type="checkbox" name="liking" id="" value="Stuck in studying"> ติดเรียน
+        <input type="checkbox" name="liking" id="" value="lazy"> ขี้เกียจ
+        <input type="checkbox" name="liking" id="" value="hard-working"> ขยัน
+        <input type="checkbox" name="liking" id="" value="Stay Away"> เก็บตัว
+        <input type="checkbox" name="liking" id="" value="dull"> งี่เง่า
+
+        
+
+
+
+
+
+
+
+            <br> <input type="submit" value="ส่งข้อมูล"> <input type="reset" value="ล้างข้อมูล"> 
+            
+            
+        </fieldset>
+
+    </form>
+</body>
+</html>
